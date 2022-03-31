@@ -54,7 +54,7 @@ RSpec.describe "Students", type: :request do
     #     get '/students?name=kirby'
 
     #     expect(response.body).to include_json([
-    #       { first_name: 'Vanessa', last_name: 'Kirby', grade: 85 }
+    #       {first_name: 'Vanessa', last_name: 'Kirby', grade: 85 }
     #     ])
     #   end
     # end
